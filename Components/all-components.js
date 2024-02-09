@@ -5,9 +5,9 @@ class Header extends HTMLElement {
         data-duration="400" data-easing="ease" data-easing2="ease" role="banner" class="nav-section w-nav">
         <div class="container nav">
             <div class="navbar-inner"><a href="#" class="uui-navbar08_logo-link-2 w-nav-brand"><img
-                        src="../Assets/Logo Og.png"
+                        src="Assets/Logo Og.png"
                         loading="lazy" sizes="(max-width: 479px) 162.71875px, 182.359375px"
-                        srcset="../Assets/Logo-p-500.png 500w, ../Assets/Logo-p-895.png 895w"
+                        srcset="Assets/Logo-p-500.png 500w, Assets/Logo-p-895.png 895w"
                         alt="Untitled UI logotext" class="uui-logo_logotype-3" /></a>
                 <nav role="navigation" class="uui-navbar08_menu-2 w-nav-menu">
                     <div class="uui-navbar08_menu-left-2"><a href="index.html"
@@ -28,23 +28,23 @@ class Header extends HTMLElement {
                                     <div class="uui-navbar08_dropdown-link-list-2"><a href="motor-insurance.html"
                                             class="uui-navbar08_dropdown-link-2 w-inline-block">
                                             <div class="uui-navbar08_icon-wrapper-2"><img
-                                                    src="../Assets/Nav icons/Motor.svg"
-                                                    loading="lazy" alt="" /></div>
+                                                    src="Assets/Nav icons/Motor.svg"
+                                                    loading="lazy" alt="Motor-icon" /></div>
                                             <div class="uui-navbar08_item-right-2">
                                                 <div class="uui-navbar08_item-heading-2">Motor Insurance</div>
                                             </div>
                                         </a><a href="agriculture-insurance.html"
                                             class="uui-navbar08_dropdown-link-2 w-inline-block">
                                             <div class="uui-navbar08_icon-wrapper-2"><img
-                                                    src="../Assets/Nav icons/Agri.svg"
-                                                    loading="lazy" alt="" /></div>
+                                                    src="Assets/Nav icons/Agri.svg"
+                                                    loading="lazy" alt="agri-icon" /></div>
                                             <div class="uui-navbar08_item-right-2">
                                                 <div class="uui-navbar08_item-heading-2">Agriculture Insurance</div>
                                             </div>
                                         </a><a href="fire-insurance.html"
                                             class="uui-navbar08_dropdown-link-2 w-inline-block">
                                             <div class="uui-navbar08_icon-wrapper-2"><img
-                                                    src="../Assets/Nav icons/fire.svg"
+                                                    src="Assets/Nav icons/fire.svg"
                                                     loading="lazy" alt="" /></div>
                                             <div class="uui-navbar08_item-right-2">
                                                 <div class="uui-navbar08_item-heading-2">Fire Insurance</div>
@@ -52,7 +52,7 @@ class Header extends HTMLElement {
                                         </a><a href="corporate-insurance.html"
                                             class="uui-navbar08_dropdown-link-2 w-inline-block">
                                             <div class="uui-navbar08_icon-wrapper-2"><img
-                                                    src="../Assets/Nav icons/corporate.svg"
+                                                    src="Assets/Nav icons/corporate.svg"
                                                     loading="lazy" alt="" /></div>
                                             <div id="w-node-_9ae6fa4b-1ebb-a8ad-88fa-127ad4500836-d450080c"
                                                 class="uui-navbar08_item-right-2">
@@ -62,7 +62,7 @@ class Header extends HTMLElement {
                                     <div class="uui-navbar08_dropdown-link-list-2"><a href="property-insurance.html"
                                             class="uui-navbar08_dropdown-link-2 w-inline-block">
                                             <div class="uui-navbar08_icon-wrapper-2"><img
-                                                    src="../Assets/Nav icons/property.svg"
+                                                    src="Assets/Nav icons/property.svg"
                                                     loading="lazy" alt="" class="image-11" /></div>
                                             <div class="uui-navbar08_item-right-2">
                                                 <div class="uui-navbar08_item-heading-2">Property Insurance</div>
@@ -70,7 +70,7 @@ class Header extends HTMLElement {
                                         </a><a href="life-insurance.html"
                                             class="uui-navbar08_dropdown-link-2 w-inline-block">
                                             <div class="uui-navbar08_icon-wrapper-2"><img
-                                                    src="../Assets/Nav icons/life.svg"
+                                                    src="Assets/Nav icons/life.svg"
                                                     loading="lazy" alt="" /></div>
                                             <div class="uui-navbar08_item-right-2">
                                                 <div class="uui-navbar08_item-heading-2">Life Insurance</div>
@@ -78,7 +78,7 @@ class Header extends HTMLElement {
                                         </a><a href="health-insurance.html"
                                             class="uui-navbar08_dropdown-link-2 w-inline-block">
                                             <div class="uui-navbar08_icon-wrapper-2"><img
-                                                    src="../Assets/Nav icons/health.svg"
+                                                    src="Assets/Nav icons/health.svg"
                                                     loading="lazy" alt="" /></div>
                                             <div class="uui-navbar08_item-right-2">
                                                 <div class="uui-navbar08_item-heading-2">Health Insurance</div>
@@ -118,7 +118,7 @@ class Footer extends HTMLElement {
             <section class="footer-subscribe">
         <div class="container footer">
             <div class="footer-form-two w-form">
-                <form action="mailto:joshuasimfukwe73@gmail.com" id="wf-form-Footer-Form-Two" name="wf-form-Footer-Form-Two" data-name="Footer Form Two"
+                <form id="wf-form-Footer-Form-Two" name="wf-form-Footer-Form-Two" data-name="Footer Form Two"
                     method="get" class="footer-form-container-two" data-wf-page-id="65b1ae7e4f0b1c2b962577a8"
                     data-wf-element-id="372d589c-0b23-ac8e-edb8-437f49719395">
                     <div class="heading-second bold">Subscribe for Updates </div>
@@ -144,18 +144,18 @@ class Footer extends HTMLElement {
                 <div class="footer-social-block-three"><a id="facebook-icon"
                         href="https://web.facebook.com/profile.php?id=61556235055796" target="_blank"
                         class="footer-social-link-three w-inline-block"><img
-                            src="../Assets/footer icons/fb icon.svg"
-                            loading="lazy" alt="" class="image-8" /></a><a id="twitter-icon" href="#"
+                            src="Assets/footer icons/fb icon.svg"
+                            loading="lazy" alt="facebook icon" class="image-8" /></a><a id="twitter-icon" href="#"
                         class="footer-social-link-three w-inline-block"><img
-                            src="../Assets/footer icons/x.svg"
-                            loading="lazy" id="in" alt="" class="image-9" /></a><a href="#"
+                            src="Assets/footer icons/x.svg"
+                            loading="lazy" id="in" alt="x-icon" class="image-9" /></a><a href="#"
                         class="footer-social-link-three w-inline-block"><img
-                            src="../Assets/footer icons/insta.svg"
-                            loading="lazy" alt="" class="image-10" /></a><a id="Linkedin-icon"
+                            src="Assets/footer icons/insta.svg"
+                            loading="lazy" alt="instagram icon" class="image-10" /></a><a id="Linkedin-icon"
                         href="https://www.linkedin.com/company/magnet-insurance-brokers-ltd-zambia/?viewAsMember=true"
                         target="_blank" class="footer-social-link-three w-inline-block"><img
-                            src="../Assets/footer icons/in.svg"
-                            loading="lazy" alt="" class="image-7" /></a></div>
+                            src="Assets/footer icons/in.svg"
+                            loading="lazy" alt="linkein icon" class="image-7" /></a></div>
             </div>
             <div class="_48px-spacer"></div>
             <div class="footer-bottom">
