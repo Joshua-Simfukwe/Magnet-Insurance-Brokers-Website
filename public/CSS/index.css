@@ -334,6 +334,10 @@ html[data-w-dynpage] [data-w-cloak] {
   margin: unset;
 }
 
+pre.w-code-block code {
+  all: inherit;
+}
+
 .w-webflow-badge,
 .w-webflow-badge * {
   z-index: auto;
@@ -2219,6 +2223,7 @@ textarea.w-select {
   --trasparent: rgba(5, 35, 95, 0);
   --white: white;
   --blue: #05235f;
+  --beaver: #9a8478;
   --spark-library-foreground-interactive\<deleted\|variable-cf7e9b6c\>: #5532fa;
   --spark-library-background--interactive: #f0ecfd;
   --spark-library-foreground-interactive-hover\<deleted\|variable-be2ea3c7\>: #1e116e;
@@ -2233,7 +2238,6 @@ textarea.w-select {
   --elements-webflow-library--general--shadow-03: rgba(20, 20, 43, .1);
   --elements-webflow-library--general--shadow-01: rgba(20, 20, 43, .06);
   --elements-webflow-library--secondary--color-2: #f2f1ff;
-  --beaver: #9a8478;
   --cerulean: #247ba0;
   --spark-library--foreground-secondary: rgba(0, 0, 0, .76);
   --untitled-ui--gray700: #344054;
@@ -3168,8 +3172,13 @@ blockquote {
 
 .heading-second.bold.center {
   text-align: center;
+  white-space: nowrap;
   margin-left: auto;
   margin-right: auto;
+}
+
+.heading-second.bold.center:hover {
+  color: var(--beaver);
 }
 
 .spark-line-3 {
@@ -9063,6 +9072,11 @@ blockquote {
 
   .heading-second.card {
     text-align: left;
+  }
+
+  .heading-second.card.inv {
+    margin-left: 0;
+    margin-right: 0;
   }
 
   .heading-second.footer {
